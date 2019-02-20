@@ -113,9 +113,9 @@ ________________________________________________________________________________
 8. Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
 9. Set the modulo to select the index of ID. This will determine who won.
 10. Lottery system will set the winner's ID.
-10. Withdraw 	
-11. Balance will be added to users address and will added to world state to verify the address of the user.
-12. Winner's wallet will be updated.
+11. Withdraw 	
+12. Balance will be added to users address and will added to world state to verify the address of the user.
+13. Winner's wallet will be updated.
 END
 
 **Recurring Lottery Hyperledger**
@@ -130,9 +130,9 @@ END
 8. Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
 9. Set the modulo to select the index of ID. This will determine who won.
 10. Lottery system will set the winner's ID.
-10. Withdraw 	
-11. Balance will be added to users address and will added to world state to verify the address of the user.
-12. Winner's wallet will be updated.
+11. Withdraw 	
+12. Balance will be added to users address and will added to world state to verify the address of the user.
+13. Winner's wallet will be updated.
 END
 
 **PS.** Simple Lottery and Recurring Lottery in Hyperledger are nearly identical.
@@ -150,12 +150,12 @@ END
 
 **Draw winner** and **Withdraw** are nearly identical to Simple Lottery.
 
-10. Draw winner 
-11. Generate new hash from block hash, it will enable to select the users address to ID list.
-12. Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
-13. Withdraw 	
-14. Balance will be added to users ID and will added to world state to verify the address of the user.
-15. Users wallet will be updated.
+9. Draw winner 
+10 Generate new hash from block hash, it will enable to select the users address to ID list.
+11 Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the sed is modified to incorporate the reveal.
+12 Withdraw 	
+13. Balance will be added to users ID and will added to the world state and verify the users ID
+14. Users wallet will be updated.
 
 **Powerball Hyperledger**
 
@@ -163,15 +163,15 @@ END
 2. Set the time to determine the duration for the lottery.
 3. Users buys a ticket.
 4. Users must enter a 6 digit of number limited to 1-99.
-4. Lottery System will get the identity of the user.
-5. After that it will be added to the ID list.
-6. Draw winner 
-7. Generate new hash from block hash.
-8. Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
-9. Set the modulo to select the index of ID. This will determine who won.
-10. Lottery system will set the winner's ID.
-10. Withdraw 	
-11. Balance will be added to users address and will added to world state to verify the address of the user.
-12. Winner's wallet will be updated.
+5 Lottery System will get the identity of the user.
+6 After that it will be added to the ID list.
+7 Draw winner 
+8 Generate new hash from block hash.
+9 Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
+10t the modulo to select the index of ID. This will determine who won.
+11 Lottery system will set the winner's ID.
+12 Withdraw 	
+13 Balance will be added to users address and will added to world state to verify the address of the user.
+14 Winner's wallet will be updated.
 END
 
