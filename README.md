@@ -78,7 +78,7 @@ END
 8. Draw winner and Withdraw are nearly identical to SimpleLottery.
 9. Draw winner 
 10. Generate random number, it will enable to select the users address to ticketlist.
-11.Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
+11. Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
 12. Withdraw 	
 13. Balance will be added to users address and will added to world state to verify the address of the user.
 
@@ -103,7 +103,28 @@ ________________________________________________________________________________
 
 **Simple Lottery Hyperledger**
 
+1. Users must register first and run the application.
+2. Set the time to determine the duration for the lottery.
+3. Users buys a ticket.
+4. Lottery System will get the identity of the user.
+5. After that it will be added to the ID list.
+6. Draw winner 
+7. Generate new hash from block hash.
+8. Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
+9. Set the modulo to select the index of ID. This will determine who won.
+10. Lottery system will set the winner's ID.
+10. Withdraw 	
+11. Balance will be added to users address and will added to world state to verify the address of the user.
+12. Winner's wallet will be updated.
+END
+
+
+
 **Recurring Lottery Hyperledger**
+
+
+
+
 
 **RNG Lottery Hyperledger**
 
