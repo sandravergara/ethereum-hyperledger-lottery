@@ -26,7 +26,7 @@ Powerball
 
 # Steps
 
-1. Clone this repository git clone https://github.com/ssvergara/ethereum-hyperledger-lottery.git
+1. Clone this repository **git clone https://github.com/ssvergara/ethereum-hyperledger-lottery.git**
 2. Go to this link https://www.draw.io/ 
 3. Drag the XML file to draw.io to view the process diagram.
 
