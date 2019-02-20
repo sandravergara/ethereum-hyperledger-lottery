@@ -163,15 +163,15 @@ END
 2. Set the time to determine the duration for the lottery.
 3. Users buys a ticket.
 4. Users must enter a 6 digit of number limited to 1-99.
-5 Lottery System will get the identity of the user.
-6 After that it will be added to the ID list.
-7 Draw winner 
-8 Generate new hash from block hash.
-9 Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
-10t the modulo to select the index of ID. This will determine who won.
-11 Lottery system will set the winner's ID.
-12 Withdraw 	
-13 Balance will be added to users address and will added to world state to verify the address of the user.
-14 Winner's wallet will be updated.
+5. Lottery System will get the identity of the user.
+6. After that it will be added to the ID list.
+7. Draw winner 
+8. Generate new hash from block hash.
+9. Get the modulo of unsigned integer by the length of ID list, it will enable to select the users address to ticket list.
+10. Set the modulo to select the index of ID. This will determine who won.
+11. Lottery system will set the winner's ID.
+12. Withdraw 	
+13. Balance will be added to users address and will added to world state to verify the address of the user.
+14. Winner's wallet will be updated.
 END
 
