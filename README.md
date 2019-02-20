@@ -93,7 +93,9 @@ END
 7. Generate random number, it will enable to select the users address to ticket list.
 8. Lottery System will assign the winner's user address.
 9. Users will checked the round details.
-10. Users must show the ticket that they've picked 
+10. Claim
+11. Lottery system will check the balance of users address and will transfer the balance to the address .
+12. Users received the prize.
 
 ______________________________________________________________________________________________________
 
