@@ -38,7 +38,7 @@ Powerball
 2. The System will Set lottery duration and save to world state the total duration.
 3. The user will load contract address.
 4. The user will buy ticket.
-5. When user successfully bought a ticket, System add user's addresss to ticket list in world state.
+5. When user successfully bought a ticket, System add users addresss to ticket list in world state.
 6. When duration will lapsed,
 7. User will draw the winner if he/she will be the winner.
 8. When user draw the winner, the system will generate random unsigned integer.
@@ -69,20 +69,31 @@ END
 **RNG Lottery Ethereum**
 
 1. Every buyer submits a commitment hash when they buy a ticket.
-2. User’s is generating their number which they want to submit.
-3. User’s secret number and address will be added to ticket list.
+2. Users is generating their number which they want to submit.
+3. Users secret number and address will be added to ticket list.
 4. Ticketing period is over. Tickets cannot be purchased after this period.
-5. User’s must reveal their own secret number.  All reveals must occur after the ticket deadline and before the reveal deadline.
+5. Users must reveal their own secret number.  All reveals must occur after the ticket deadline and before the reveal deadline.
 6. Verifying of commitment hash and must match the commitment submitted with the ticket.
 7. If failed to submit their own number and address, dropped from the lottery.
 8. Draw winner and Withdraw are nearly identical to SimpleLottery.
 9. Draw winner 
-10. Generate random number, it will enable to select the user’s address to ticketlist.
+10. Generate random number, it will enable to select the users address to ticketlist.
 11.Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
 12. Withdraw 	
-13. Balance will be added to user’s address and will added to world state to verify the address of the user.
+13. Balance will be added to users address and will added to world state to verify the address of the user.
 
 **Powerball Ethereum**
+
+1. Initiate the contract.
+2. Set the time to determine the duration for the lottery.
+3. Participants buys a ticket.
+4. Users must enter a 6 digit of number limited to 1-69.
+5. Users address will be added to the ticket list in the Lottery System.
+6. Draw winner 
+7. Generate random number, it will enable to select the users address to ticket list.
+8. Lottery System will assign the winner's user address.
+9. Users will checked the round details.
+10. Users must show the ticket that they've picked 
 
 ______________________________________________________________________________________________________
 
@@ -90,32 +101,27 @@ ________________________________________________________________________________
 
 **Simple Lottery Hyperledger**
 
-
-
 **Recurring Lottery Hyperledger**
-
-
-
 
 **RNG Lottery Hyperledger**
 
-1. User’s must register first and run the application.
+1. Users must register first and run the application.
 2. Every buyer submits a commitment hash when they buy a ticket.
-3. User’s is generating their number which they want to submit.
-4. User’s secret number and address will be added to ID list..
+3. Users is generating their number which they want to submit.
+4. Users secret number and address will be added to ID list..
 5. Ticketing period is over. Tickets cannot be purchased after this period.
-6. User’s must reveal their own secret number.  All reveals must occur after the ticket deadline and before the reveal deadline.
+6. Users must reveal their own secret number.  All reveals must occur after the ticket deadline and before the reveal deadline.
 7. Verifying of commitment hash and must match the commitment submitted with the ID.
 8. If failed to submit their own number and address, dropped from the lottery.
 
 **Draw winner** and **Withdraw** are nearly identical to Simple Lottery.
 
 10. Draw winner 
-11. Generate new hash from block hash, it will enable to select the user’s address to ID list.
+11. Generate new hash from block hash, it will enable to select the users address to ID list.
 12. Generate random seed for picking a winner, this is random seed to determine the winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
 13. Withdraw 	
-14. Balance will be added to user’s ID and will added to world state to verify the address of the user.
-15. User’s wallet will be updated.
+14. Balance will be added to users ID and will added to world state to verify the address of the user.
+15. Users wallet will be updated.
 
 **Powerball Hyperledger**
 
