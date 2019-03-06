@@ -24,6 +24,16 @@ RNG Lottery
 
 Powerball
 
+**Ethereum Lottery with UI**
+
+Simple Lottery
+
+Recurring Lottery
+
+RNG Lottery
+
+Powerball
+
 # Steps
 
 1. Clone this repository **git clone https://github.com/ssvergara/ethereum-hyperledger-lottery.git**
